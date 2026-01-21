@@ -42,3 +42,5 @@ Cluster-specific marker genes displayed spatially restricted expression patterns
 ## Project Outputs
 
 - Final annotated Seurat object:
+- Publication-quality spatial plots and visualizations stored in `results/figures/`
+- Cluster marker gene tables stored in `results/tables/`
