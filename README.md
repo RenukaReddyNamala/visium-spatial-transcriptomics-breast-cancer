@@ -39,3 +39,6 @@ Distinct spatial domains were identified across the tissue section, revealing st
 ### Marker Gene Expression Patterns
 
 Cluster-specific marker genes displayed spatially restricted expression patterns consistent with known breast cancer biology. These patterns supported the biological annotation of spatial domains and demonstrated clear tissue heterogeneity.
+## Project Outputs
+
+- Final annotated Seurat object:
