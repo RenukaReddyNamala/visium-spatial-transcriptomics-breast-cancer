@@ -21,3 +21,6 @@ This project presents a spatial transcriptomics analysis of a public breast canc
 ### Data Preprocessing and Quality Control
 
 Raw Visium spatial count data and corresponding histology images were loaded into Seurat. Low-quality spots were filtered based on total UMI counts, number of detected genes, and mitochondrial gene expression. Spatial visualization of QC metrics was used to ensure retention of tissue-associated spots while removing background noise.
+### Normalization and Dimensionality Reduction
+
+Gene expression data were normalized using the SCTransform method to correct for technical variation while preserving biological signal. Principal component analysis (PCA) was performed on the normalized data to reduce dimensionality, and informative principal components were selected for downstream spatial clustering.
