@@ -16,3 +16,8 @@ This project presents a spatial transcriptomics analysis of a public breast canc
 - 10x Genomics Visium
 - ggplot2
 - dplyr
+## Methods
+
+### Data Preprocessing and Quality Control
+
+Raw Visium spatial count data and corresponding histology images were loaded into Seurat. Low-quality spots were filtered based on total UMI counts, number of detected genes, and mitochondrial gene expression. Spatial visualization of QC metrics was used to ensure retention of tissue-associated spots while removing background noise.
