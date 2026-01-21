@@ -24,3 +24,6 @@ Raw Visium spatial count data and corresponding histology images were loaded int
 ### Normalization and Dimensionality Reduction
 
 Gene expression data were normalized using the SCTransform method to correct for technical variation while preserving biological signal. Principal component analysis (PCA) was performed on the normalized data to reduce dimensionality, and informative principal components were selected for downstream spatial clustering.
+### Spatial Clustering
+
+Spatial domains were identified using graph-based clustering on the PCA-reduced data. Cluster assignments were visualized in their spatial context by overlaying results on the corresponding histology image, enabling interpretation of spatially distinct tissue regions.
