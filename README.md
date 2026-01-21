@@ -30,3 +30,12 @@ Gene expression data were normalized using the SCTransform method to correct for
 Cluster-specific marker genes were identified using differential expression analysis with Seurat. Marker selection was based on minimum expression frequency and log-fold change thresholds. Clusters were manually annotated using known breast cancer–related marker genes to assign biologically meaningful labels to spatial domains.
 
 Spatial domains were identified using graph-based clustering on the PCA-reduced data. Cluster assignments were visualized in their spatial context by overlaying results on the corresponding histology image, enabling interpretation of spatially distinct tissue regions.
+## Results
+
+### Spatial Domain Identification
+
+Distinct spatial domains were identified across the tissue section, revealing structured organization within the breast cancer sample. Spatial clustering highlighted regions corresponding to tumor-rich areas, immune-associated regions, and surrounding stromal compartments.
+
+### Marker Gene Expression Patterns
+
+Cluster-specific marker genes displayed spatially restricted expression patterns consistent with known breast cancer biology. These patterns supported the biological annotation of spatial domains and demonstrated clear tissue heterogeneity.
