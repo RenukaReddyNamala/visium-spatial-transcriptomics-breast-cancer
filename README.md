@@ -9,3 +9,10 @@ This project presents a spatial transcriptomics analysis of a public breast canc
 - Tissue: Breast cancer
 - Data type: Spatial RNA-seq
 - Source: Publicly available dataset
+## Tools & Technologies
+
+- R
+- Seurat
+- 10x Genomics Visium
+- ggplot2
+- dplyr
